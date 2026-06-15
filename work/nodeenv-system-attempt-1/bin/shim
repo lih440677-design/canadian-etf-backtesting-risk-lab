@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+export NODE_PATH='/Users/liyuetao/Documents/Codex/2026-06-14/files-mentioned-by-the-user-canadian/frontend/.nodeenv/lib/node_modules'
+export NPM_CONFIG_PREFIX='/Users/liyuetao/Documents/Codex/2026-06-14/files-mentioned-by-the-user-canadian/frontend/.nodeenv'
+export npm_config_prefix='/Users/liyuetao/Documents/Codex/2026-06-14/files-mentioned-by-the-user-canadian/frontend/.nodeenv'
+exec '/Users/liyuetao/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node' "$@"

@@ -1,0 +1,41 @@
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+backend/.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Node environments and dependencies
+.nodeenv/
+**/.nodeenv/
+frontend/.nodeenv/
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+frontend/.vite/
+
+# Coverage
+coverage/
+backend/.coverage
+backend/htmlcov/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Editors and logs
+.idea/
+.vscode/
+*.log
